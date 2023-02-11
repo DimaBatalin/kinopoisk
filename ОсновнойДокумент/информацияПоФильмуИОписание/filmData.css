@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+button {
+    font-weight: bold;
+    font-size: 20px;
+}
+.film {
+    margin-top: 30px;
+    display: flex;
+    width: 1000px;
+    height: fit-content;
+    padding: 20px;
+    background-color: #80010c;
+    color: white;
+    border-radius: 10px;
+}
+.infoFilm {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.imgClass {
+    border-radius: 5px;
+    width: 250px;
+    box-shadow: 15px 15px 10px -5px rgba(43, 1, 1, 0.25);
+}
+span {
+    font-weight: bolder;
+}
+.YouComment {
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    width: 1200px;
+    font-weight: bolder;
+    justify-content: space-between;
+}
+.iconUser {
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.textUserName {
+    padding: 5px;
+    height: 30px;
+    margin-left: 10px;
+    border: 0;
+    font-size: 25px;
+    width: 100px;
+    text-align: right;
+}
+.textComment {
+    font-size: 20px;
+    padding: 5px;
+    height: 30px;
+    width: 50%;
+    margin-left: 10px;
+}
+.grade {
+    display: flex;
+    margin: 0 10px 0 10px;
+}
+.star {
+    font-size: 50px;
+}
+.grede1 {
+    padding: 10px;
+}
+.active {
+    color: yellow;
+    font-weight: bolder;
+}
+.save {
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    right: 0;
+    margin-left: 0;
+}
+.userName {
+    font-weight: bold;
+    margin: 10px;
+}
+.com {
+    margin: 10px;
+    margin-left: 0;
+    width: 580px;
+}
+.date {
+    font-weight: lighter;
+    padding: 10px;
+    margin-right: 10px;
+}
+.comment {
+    background-color: rgb(252, 252, 252);
+    color: black;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.comUse {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}

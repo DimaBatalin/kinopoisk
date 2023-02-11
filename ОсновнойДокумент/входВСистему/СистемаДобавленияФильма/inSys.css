@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+}
+* {
+    color: white;
+    padding: 5px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+.in {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(149, 8, 8);
+    width: 750px;
+    border-radius: 5px;
+    flex-direction: column;
+}
+.in button {
+    background-color: black;
+    color: white;
+}
+.in input {
+    color: black;
+    text-indent: 10px;
+}
