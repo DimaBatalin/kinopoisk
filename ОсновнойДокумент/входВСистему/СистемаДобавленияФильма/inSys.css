@@ -5,7 +5,6 @@ body {
     flex-direction: column;
 }
 * {
-    color: white;
     padding: 5px;
 }
 .main {
@@ -27,4 +26,15 @@ body {
 .in input {
     color: black;
     text-indent: 10px;
+}
+.visualPoster {
+    color: black;
+    background-color: white;
+}
+#films {
+    color: black;
+}
+.deletedFilm {
+    background-color: red;
+    width: 100px;
 }

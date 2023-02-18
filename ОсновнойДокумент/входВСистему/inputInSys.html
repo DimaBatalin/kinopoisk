@@ -15,17 +15,19 @@
         <input class="form-control item" type="text" name="username" minlength="4" maxlength="15" pattern="^[a-zA-Z0-9_.-]*$" id="username" placeholder="Логин" required>
       </div>
       <div class="formGroup">
-        <input class="form-control item" type="password" name="password" minlength="6" maxlength="16" pattern="^[a-zA-Z0-9_.-]*$" id="password" placeholder="Пароль" required>
+        <input class="form-control item" type="password" name="password" minlength="5" maxlength="16" pattern="^[a-zA-Z0-9_.-]*$" id="password" placeholder="Пароль" required>
       </div>
       <!-- <div class="formGroup">
         <input class="form-control item" type="email" name="email" id="email" placeholder="Email" required>
       </div> -->
       <div class="formGroup">
-        <button onclick="isAdmin()" class="btn btn-primary btn-block create-account">Вход в аккаунт</button>
+        <button onclick="isAdmin()" class="btn btn-primary btn-block create-account" >Вход в аккаунт</button>
       </div>
       <div class="validacia"></div>
     </form>
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
   <script src="inputInSys.js"></script>
 </body>

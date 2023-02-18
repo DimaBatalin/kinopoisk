@@ -47,8 +47,7 @@ addComment = () => {
 async function drawComment() {
     
     try {
-        const response = await axios.get(`${url}/comments/show/${idFilmWindow}`, {
-        })
+        const response = await axios.get(`${url}/comments/show/${idFilmWindow}`, {})
 
         console.log(response.data.message);
 
@@ -188,7 +187,7 @@ info2 = () => {
     .catch(err => console.log(err))
 }
 
-const url = `http://192.168.1.215:5000`;
+const url = `http://192.168.1.21:5000`;
 
 const idFilmWindow = window.location.href.split("id=")[1]
 
